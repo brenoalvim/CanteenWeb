@@ -13,7 +13,6 @@ export default function Home() {
       <Link />
       <Title name="Home" />
       <GlobalStyle />
-      <h1></h1>
     </>
   )
 }
