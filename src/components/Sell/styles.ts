@@ -1,25 +1,25 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-  display: flex;
+  color: var(--light-color);
   justify-content: center;
   align-items: center;
+  list-style: none;
   flex-wrap: wrap;
+  display: flex;
   width: 100vw;
   height: 70vh;
-  color: var(--light-color);
-  list-style: none;
 
   * a {
     text-decoration: none;
   }
 
   .icon {
-    width: 100px;
-    height: 100px;
-    margin-top: 15px;
     background-color: var(--brand-color);
     border-radius: 50%;
+    margin-top: 15px;
+    height: 100px;
+    width: 100px;
   }
 
   .icon img {
@@ -37,13 +37,13 @@ export const Div = styled.div`
   }
 
   .buttons .button a button {
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
     width: 200px;
     height: 50px;
-    font-size: 30px;
     border: none;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
   }
 
   .main-button a button {
@@ -52,16 +52,16 @@ export const Div = styled.div`
   }
 
   .inputUser {
-    width: 100%;
     margin-top: 50px;
+    width: 100%;
   }
 
   .inputUser input {
+    border-radius: 8px;
+    outline: none;
     width: 200px;
     height: 35px;
     border: none;
-    outline: none;
-    border-radius: 8px;
   }
 
   .inputUser input::placeholder {

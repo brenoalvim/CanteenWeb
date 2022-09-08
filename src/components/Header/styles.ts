@@ -1,22 +1,22 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
-  display: flex;
+  border-bottom: 1px solid var(--light-color);
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 10vh;
-  padding: 5px;
   font-weight: bold;
-  border-bottom: 1px solid var(--light-color);
+  display: flex;
+  padding: 5px;
+  height: 10vh;
+  width: 100%;
 
   button {
     background: var(--light-color);
-    border: none;
     border-radius: 50%;
     outline: none;
-    width: 42px;
     height: 42px;
+    border: none;
+    width: 42px;
   }
 
   button img {
