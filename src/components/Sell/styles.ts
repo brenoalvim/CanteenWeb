@@ -23,14 +23,13 @@ export const Div = styled.div`
   }
 
   .icon img {
-    width: 80px;
+    width: 60px;
   }
 
   .buttons {
     width: 100%;
-    height: 100%;
+    height: 40%;
     gap: 10px;
-    
   }
 
   .button {
@@ -50,5 +49,23 @@ export const Div = styled.div`
   .main-button a button {
     background-color: var(--brand-color);
     color: var(--light-color);
+  }
+
+  .inputUser {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .inputUser input {
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+
+  .inputUser input::placeholder {
+    color: var(--dark-color);
+    padding-left: 10px;
   }
 `

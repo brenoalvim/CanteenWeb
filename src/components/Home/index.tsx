@@ -9,7 +9,7 @@ export default function Homepage() {
       <div className="hr"></div>
       <div className="buttons pattern">
         <div className="button pattern main-button">
-          <a href="#">
+          <a href="/Sell">
             <button>
               <strong>Vender</strong>
             </button>
@@ -17,30 +17,22 @@ export default function Homepage() {
         </div>
         <div className="button pattern">
           <a href="#">
-            <button>
-              <strong>Caixa</strong>
-            </button>
+            <button>Caixa</button>
           </a>
         </div>
         <div className="button pattern">
           <a href="#">
-            <button>
-              <strong>Relatório</strong>
-            </button>
+            <button>Relatório</button>
           </a>
         </div>
         <div className="button pattern">
           <a href="#">
-            <button>
-              <strong>Cardápio</strong>
-            </button>
+            <button>Cardápio</button>
           </a>
         </div>
         <div className="button pattern">
           <a href="#">
-            <button>
-              <strong>Configuração</strong>
-            </button>
+            <button>Configuração</button>
           </a>
         </div>
       </div>
