@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
   border-bottom: 1px solid var(--light-color);
-  justify-content: space-between;
+  justify-content: space-around;
+  color: var(--light-color);
   align-items: center;
   font-weight: bold;
+  padding-top: 5px;
   display: flex;
-  padding: 5px;
   height: 10vh;
   width: 100%;
 

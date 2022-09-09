@@ -64,6 +64,17 @@ export const Div = styled.div`
     border: none;
   }
 
+  .inputUser button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--brand-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
   .inputUser input::placeholder {
     color: var(--dark-color);
     padding-left: 10px;
