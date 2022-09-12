@@ -23,4 +23,8 @@ export const Div = styled.div`
   button img {
     width: 25px;
   }
+
+  span {
+    font-size: 20px;
+  }
 `

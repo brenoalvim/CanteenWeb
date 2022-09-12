@@ -12,7 +12,7 @@ export default function Header(props: HeaderProps) {
   return (
     <Div>
       <button onClick={returnPage}>
-        <img src="icons/arrow-left-solid.svg" alt="" />
+        <img src="icons/arrow-left-solid.svg" />
       </button>
       <span>{props.title}</span>
     </Div>
