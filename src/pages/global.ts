@@ -7,7 +7,7 @@ export default createGlobalStyle`
 
   * {
     scroll-behavior: smooth;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif
   }
 
   body {
